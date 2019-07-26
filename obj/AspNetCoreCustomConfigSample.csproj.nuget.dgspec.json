@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mennankose/Projects/aspnetcore-custom-config-sample/AspNetCoreCustomConfigSample.csproj": {}
+  },
+  "projects": {
+    "/Users/mennankose/Projects/aspnetcore-custom-config-sample/AspNetCoreCustomConfigSample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mennankose/Projects/aspnetcore-custom-config-sample/AspNetCoreCustomConfigSample.csproj",
+        "projectName": "AspNetCoreCustomConfigSample",
+        "projectPath": "/Users/mennankose/Projects/aspnetcore-custom-config-sample/AspNetCoreCustomConfigSample.csproj",
+        "packagesPath": "/Users/mennankose/.nuget/packages/",
+        "outputPath": "/Users/mennankose/Projects/aspnetcore-custom-config-sample/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mennankose/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "/Users/mennankose/.dotnet/NuGetFallbackFolder": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.All": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "(, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
